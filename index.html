@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6753e98647.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/uy.png" class="logo">
+                <ul id="sidemenu">
+
+                    <li> <a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi, There</p>
+                <h1>I'm <span>Abhishek</span><br> From Hubli <span id="typing"></span></h1>
+            </div>
+            <!-- <script src="script.js"></script><br> -->
+            <a href="images/Abhishek_S_Angadi_KLE_Tech_University.pdf" download class="btn btn2">Download Cv</a>
+        </div>
+        
+    </div>
+    
+    
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My goal is to thrive in a challenging and competitive environment where I can stay updated with the latest technology,
+                        continuously enhance my technical and interpersonal skills, and contribute to organizational excellence while
+                        advancing my career.</p><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                      
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <br>
+                        <ul>
+                            <li><span>Languages</span><br>C, C++, Python,Java</li>
+                            <li><span>Web Development</span><br>Designing Web/ Html, Css, Javascript</li>
+                            <li><span>Database Systems</span><br>Oracle(MySql), MongoDB
+                            <li><span>FrameWorks</span><br>Nodejs, Reactjs
+                            </li>
+
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <br>
+                        <ul>
+                            <li><span>2025</span><br> KLE TECHNOLOGICAL UNIVERSITY</li>
+                            <li><span>2021</span><br>PRERANA PU SCIENCE COLLEGE</li>
+                            <li><span>2019</span><br>S G SHINTRI ENGLISH MEDIUM HIGH SCHOOL</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>"Passionate about crafting visually appealing and user-friendly web designs 
+                    that combine creativity with functionality. I aim to deliver seamless digital 
+                    experiences tailored to meet clients' unique needs."</p>
+                    <a href="https://www.simplilearn.com/what-is-web-designing-article">Learn more</a>
+               </div> 
+               <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2> Front-End Design</h2>
+                <p> "Specializing in front-end design, I create responsive and interactive user interfaces 
+                    that enhance user engagement. My focus is on blending aesthetics with intuitive functionality 
+                    for a seamless user experience."</p>
+                    <a href="https://cloudinary.com/guides/front-end-development/front-end-development-the-complete-guide">Learn more</a>
+               </div> 
+               <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Database Design</h2>
+                <p> Designed and optimized database schemas for efficient data management, ensuring data integrity, normalization, and scalability 
+                    for complex applications. Implemented advanced SQL queries, stored procedures, and performance tuning for seamless database 
+                    operations.</p>
+                    <a href="https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5">Learn more</a>
+               </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio or projects------------------ -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                  <img src="images/work-1.png"> 
+                  <div class="layer">
+                    <h3> Portfolio Website</h3> 
+                <p>Developed a MERN stack job portal with secure authentication using JWT and RESTful 
+                    APIs for job posting, application, and profile management, featuring advanced search and filtering 
+                    functionalities. Designed a website for portfolio management.</p>
+            <a href="https://github.com/AbhishekSAngadi" arget="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div> 
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png"> 
+                    <div class="layer">
+                        <h3>Train Ticket Booking</h3> 
+                    <p>Developed a Train Ticket Reservation System with features for train schedule viewing, seat booking,
+                         fare enquiry,and secure user management, using Java, JDBC, and Oracle. The system includes admin functionalities for managing
+                          trains and user access for booking and profile management.</p>
+                <a href="https://github.com/AbhishekSAngadi" arget="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>  
+                  </div>
+                  <div class="work">
+                    <img src="images/work-3.png"> 
+                    <div class="layer">
+                        <h3> Online Shopping Website</h3> 
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cupiditate quo nihil officia itaque, exercitationem dolorem.</p>
+                <a href="https://github.com/AbhishekSAngadi" arget="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>  
+                  </div>
+            </div>
+            <a href="https://github.com/AbhishekSAngadi" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- ------------------contact--------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope "></i>   asangadi45@gmail.com</p>
+                <p><i class="fa-solid fa-phone "></i>   9900527255</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/AbhishekSAngadi"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/AbhishekSAngadi"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://instagram.com/_abhishekangadi_/ "><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/abhishek-s-angadi-0a5a92303"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/Abhishek_S_Angadi_KLE_Tech_University.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+
+</form>
+<span id="msg"> </span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+  <p> Copyright  <i class="fa-regular fa-copyright"></i>  Abhishek Angadi </p>  
+</div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyu42Yxg13yGeEGkwfkeCpmTDre8bGJcyb8ZQ0R0yizE7txWOd1k-uX7LUyyRPaJWLu5A/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+</body>
+
+</html>
